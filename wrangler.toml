@@ -1,7 +1,13 @@
-name = "niraiya20"
+# wrangler.toml
+name = "niraiya-static"
 compatibility_date = "2025-10-18"
+type = "javascript"
 
-# Specify the directory where your built assets live
-[[site]]
-bucket = "./dist"
-entry-point = "workers-site"
+# Define your site static assets
+[site]
+bucket = "./dist"    # Path to your static site files
+
+# Optional: Custom domain (replace with your own if you have one)
+# [routes]
+# pattern = "https://www.yourdomain.com/*"
+# zone_id = "YOUR_CLOUDFLARE_ZONE_ID"
