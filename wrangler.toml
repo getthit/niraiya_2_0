@@ -1,0 +1,7 @@
+name = "niraiya20"
+compatibility_date = "2025-10-18"
+
+# Specify the directory where your built assets live
+[[site]]
+bucket = "./dist"
+entry-point = "workers-site"
