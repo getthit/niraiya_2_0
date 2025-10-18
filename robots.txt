@@ -1,5 +1,5 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.niraiya.com/sitemap.xml
-Host: https://www.niraiya.com
+Sitemap: https://niraiya.com/sitemap.xml
+Host: https://niraiya.com
