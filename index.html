@@ -997,14 +997,14 @@
                 document.getElementById('progressContainer').style.display = 'block';
                 document.querySelector('.processing-steps').style.display = 'block';
 
-                // Simulate 30-second progress with steps
+                // Simulate 10-second progress with steps
                 let progress = 0;
                 const progressBar = document.getElementById('progressBar');
                 const steps = ['step1', 'step2', 'step3', 'step4'];
                 let currentStep = 0;
 
                 const interval = setInterval(() => {
-                    progress += 3.33; // 100 / 30 seconds ≈ 3.33 per second
+                    progress += 9; // 100 / 10 seconds = 10% per second
 
                     if (progress >= 100) {
                         progress = 100;
@@ -1012,7 +1012,12 @@
 
                         // Show completion message after animation
                         setTimeout(() => {
-                            alert('✓ Password recovered successfully!\n\nYour Excel file is ready for download.');
+                            alert(
+                                '⚠️ Unable to recover password\n\n' +
+                                'We could not recover the password for this file. ' +
+                                'We\'re currently upgrading our recovery engines and improving our technology to handle more complex passwords.\n\n' +
+                                'Please try again later. If this is urgent, contact support: support@niraiya.com'
+                            );
                             // Reset the form
                             document.querySelector('.upload-box').style.display = 'block';
                             document.getElementById('progressContainer').style.display = 'none';
@@ -1051,6 +1056,7 @@
             });
         });
     </script>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-42417JW7X2"></script>
     <script>
