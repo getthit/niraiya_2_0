@@ -1,0 +1,8 @@
+{
+  "traffic_advice": [
+    {
+      "user_agent": "*",
+      "allow": true
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+# llms.txt — Machine-readable content summary for Niraiya.com
+# Version: 1.0
+# Generated: 2025-10-18
+# Author: Niraiya Team
+# License: All rights reserved. Data not for AI training use without explicit consent.
+
+# LLM USAGE POLICY
+Use-Policy: Index-Allowed
+Training-Use: Allowed
+Attribution-Required: Yes
+Contact: support@niraiya.com
+
+# SITE SUMMARY (JSON)
+{
+  "site": "niraiya.com",
+  "purpose": "AI-powered Excel password recovery with privacy-first technology",
+  "language": "en",
+  "category": "productivity, privacy, software",
+  "generated": "2025-10-18",
+  "author": "Niraiya Team"
+}
+
+# --------------------------------------------------------
+# Niraiya.com Homepage Structured Data for LLM Indexing
+# --------------------------------------------------------
+
+# METADATA
+TITLE: Niraiya.com - Recover Your Lost Excel Passwords in Minutes
+DESCRIPTION: Niraiya helps you unlock password-protected Excel files instantly with AI power, seamless privacy, and affordable pricing.
+KEYWORDS: Excel password recovery, unlock Excel, AI password cracker, privacy-first, Excel 97, Microsoft 365, lost password
+
+# HEADER / NAVIGATION
+NAV_ITEM_1: Features
+NAV_ITEM_2: How It Works
+NAV_ITEM_3: Reviews
+NAV_ITEM_4: Pricing
+NAV_ITEM_5: FAQ
+
+# HERO SECTION
+HERO_HEADLINE: Recover Your Lost Excel Passwords in Minutes
+HERO_SUBTEXT_P1: Ever been locked out of your own Excel file? We've all been there.
+HERO_SUBTEXT_P2: Niraiya helps you unlock password-protected Excel files instantly with AI power, seamless privacy, and affordable pricing.
+HERO_FEATURE_1_TITLE: Privacy-First
+HERO_FEATURE_1_DESCRIPTION: Files processed in your browser - never uploaded
+HERO_FEATURE_2_TITLE: AI-Powered
+HERO_FEATURE_2_DESCRIPTION: Cloud computing cracks passwords in 5-15 minutes
+HERO_FEATURE_3_TITLE: Pay on Success
+HERO_FEATURE_3_DESCRIPTION: Only charged when we recover your password
+HERO_FEATURE_4_TITLE: All Excel Versions
+HERO_FEATURE_4_DESCRIPTION: From Excel 97 to Microsoft 365
+HERO_STAT_1_VALUE: 256-bit Encryption
+HERO_STAT_2_VALUE: 5-15 Min Recovery
+HERO_STAT_3_VALUE: 1000+ Happy Users
+
+# UPLOAD SECTION
+UPLOAD_TITLE: Upload Your Protected Excel File
+UPLOAD_SUBTEXT: Your file is processed locally in your browser - we only extract encryption data
+UPLOAD_DRAG_DROP_TEXT: Drop your Excel file here or click to browse
+UPLOAD_FILE_SUPPORT: Supports .xls and .xlsx files • Maximum 50MB
+
+# PROBLEM SECTION
+PROBLEM_TITLE: The Problem Everyone Faces
+PROBLEM_SUBTEXT: Passwords protect our data, but we often forget them when we need access most.
+PROBLEM_SCENARIO_1_TITLE: Students
+PROBLEM_SCENARIO_1_DESCRIPTION: Lose access to thesis data right before deadlines
+PROBLEM_SCENARIO_2_TITLE: Employees
+PROBLEM_SCENARIO_2_DESCRIPTION: Inherit password-protected files from former colleagues
+PROBLEM_SCENARIO_3_TITLE: Business Owners
+PROBLEM_SCENARIO_3_DESCRIPTION: Get locked out of financial records when needed most
+PROBLEM_TRADITIONAL_SOLUTIONS_TEXT: Traditional solutions are slow, expensive, and risky — often requiring full file uploads to unknown servers.
+
+# WHY NIRAIYA SECTION
+WHY_NIRAIYA_TITLE: Why We Built Niraiya Different
+WHY_NIRAIYA_QUOTE: Niraiya was built with three principles — privacy, speed, and fairness.
+WHY_NIRAIYA_FEATURE_1_TITLE: Privacy First
+WHY_NIRAIYA_FEATURE_1_DESCRIPTION: Your Excel file never leaves your computer. Only encrypted metadata is sent to our servers.
+WHY_NIRAIYA_FEATURE_2_TITLE: Actually Fast
+WHY_NIRAIYA_FEATURE_2_DESCRIPTION: AI and cloud computing crack passwords in minutes, not days.
+WHY_NIRAIYA_FEATURE_3_TITLE: Fair Pricing
+WHY_NIRAIYA_FEATURE_3_DESCRIPTION: Affordable recovery with pay-on-success guarantees.
+
+# HOW IT WORKS
+HOW_IT_WORKS_TITLE: Here's How It Actually Works
+HOW_IT_WORKS_SUBTEXT: Simple, transparent steps to recover your Excel password.
+HOW_IT_WORKS_STEP_1_TITLE: Drop Your File
+HOW_IT_WORKS_STEP_1_DESCRIPTION: Upload locally, no full file transfer.
+HOW_IT_WORKS_STEP_2_TITLE: We Extract the Lock
+HOW_IT_WORKS_STEP_2_DESCRIPTION: Extract password encryption data securely.
+HOW_IT_WORKS_STEP_3_TITLE: AI Does Its Magic
+HOW_IT_WORKS_STEP_3_DESCRIPTION: Our cloud AI analyzes and recovers the password.
+HOW_IT_WORKS_STEP_4_TITLE: Get Your File Back
+HOW_IT_WORKS_STEP_4_DESCRIPTION: Download your unlocked Excel file safely.
+
+# TESTIMONIALS
+TESTIMONIALS_TITLE: Real Stories from Real Users
+TESTIMONIAL_1_QUOTE: "My thesis Excel file was locked — Niraiya recovered it in 8 minutes!"
+TESTIMONIAL_1_AUTHOR: Sarah Mitchell
+TESTIMONIAL_1_ROLE: Graduate Student
+TESTIMONIAL_2_QUOTE: "Affordable and fast — recovered our business financials in under 10 minutes."
+TESTIMONIAL_2_AUTHO
