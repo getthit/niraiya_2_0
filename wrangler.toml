@@ -1,14 +1,6 @@
 # wrangler.toml
-name = "niraiya-static"                 # Name of your worker/site
-compatibility_date = "2025-10-18"       # Required for Cloudflare Workers
-type = "javascript"                     # Keep as "javascript" for static sites
+name = "niraiya-static"
+compatibility_date = "2025-10-18"
 
-# Site configuration for static assets
 [site]
-bucket = "./dist"                       # Folder containing your built static site
-entry-point = "."                       # Use current directory; no JS main needed
-
-# Optional: define routes if you want a custom domain
-# [routes]
-# pattern = "https://www.yourdomain.com/*"
-# zone_id = "YOUR_CLOUDFLARE_ZONE_ID"
+bucket = "./dist"  # folder with your HTML/CSS/JS/assets
