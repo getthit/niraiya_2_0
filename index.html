@@ -10,6 +10,9 @@
     <link rel="preload" as="font" type="font/woff2" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2" crossorigin>
 
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
     <!-- Primary Meta Tags -->
     <title>Niraiya - AI Excel Password Recovery | Unlock Excel Files Instantly & Securely</title>
     <meta name="title" content="Niraiya - AI Excel Password Recovery | Unlock Excel Files Instantly & Securely">
@@ -246,7 +249,7 @@
         <div class="container">
             <a class="navbar-brand brand-name" href="/" itemscope itemtype="https://schema.org/Organization">
 
-                <img src="niraiya_2_0/Favicon/favicon.ico" class="img-fluid rounded-3" alt="Niraiya favicon" title="Niraiya favicon">
+                <img src="niraiya_2_0/Favicon/favicon.ico" fetchpriority=high class="img-fluid rounded-3" alt="Niraiya favicon" title="Niraiya favicon">
                 <span itemprop="name">Niraiya</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -321,7 +324,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-image-placeholder">
-                        <img src="niraiya_2_0/hero-excel-recovery.png" alt="AI-powered Excel password recovery" class="img-fluid" title="Hero image: AI-powered Excel password recovery" loading="eager">
+                        <img src="niraiya_2_0/hero-excel-recovery.webp" alt="AI-powered Excel password recovery" class="img-fluid" title="Hero image: AI-powered Excel password recovery" fetchpriority=high loading="eager">
                     </div>
                 </div>
             </div>
@@ -466,58 +469,72 @@
         </div>
     </section>
 
-    <!-- How It Works -->
-    <section id="how-it-works" class="container">
+    <section id="how-it-works" class="container py-5">
         <div class="text-center mb-5">
             <h2 class="section-title">Here's How It Actually Works</h2>
-            <p class="section-subtitle">No technical jargon, no confusing steps. Just a straightforward process that gets you back into your Excel file:</p>
+            <p class="section-subtitle">
+                No technical jargon, no confusing steps. Just a straightforward process that gets you back into your Excel file:
+            </p>
         </div>
+
         <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-                <div class="image-placeholder">
-                    <img src="niraiya_2_0/how-it-works-diagram.png" alt="Excel password recovery process" class="img-fluid rounded-3" title="Diagram: Excel password recovery process" loading="lazy">
-                </div>
+            <!-- Image on top for mobile -->
+            <div class="col-12 col-lg-6 text-center order-1 order-lg-1">
+                <img src="niraiya_2_0/how-it-works-diagram.webp"
+                     alt="Excel password recovery process"
+                     class="img-fluid rounded-3 mx-auto d-block"
+                     title="Diagram: Excel password recovery process"
+                     loading="lazy">
             </div>
-            <div class="col-lg-6">
+
+            <div class="col-12 col-lg-6 order-2 order-lg-2">
                 <div class="d-flex mb-4">
-                    <div class="me-4">
-                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; font-size: 1.5rem; font-weight: bold;">1</div>
+                    <div class="me-4 flex-shrink-0">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                             style="width: 50px; height: 50px; font-size: 1.5rem; font-weight: bold;">1</div>
                     </div>
                     <div>
                         <h3>Drop Your File</h3>
-                        <p class="text-muted">Drag your password-protected Excel file into our secure web page. It starts working immediately - no waiting for uploads because the file isn't going anywhere.</p>
+                        <p class="text-muted">Drag your password-protected Excel file into our secure web page. It starts working immediately — no waiting for uploads because the file isn't going anywhere.</p>
                     </div>
                 </div>
+
                 <div class="d-flex mb-4">
-                    <div class="me-4">
-                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; font-size: 1.5rem; font-weight: bold;">2</div>
+                    <div class="me-4 flex-shrink-0">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                             style="width: 50px; height: 50px; font-size: 1.5rem; font-weight: bold;">2</div>
                     </div>
                     <div>
                         <h3>We Extract the Lock</h3>
                         <p class="text-muted">Our browser-based tool examines your file and extracts only the password encryption information. Think of it like taking a picture of the lock without touching the treasure chest.</p>
                     </div>
                 </div>
+
                 <div class="d-flex mb-4">
-                    <div class="me-4">
-                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; font-size: 1.5rem; font-weight: bold;">3</div>
+                    <div class="me-4 flex-shrink-0">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                             style="width: 50px; height: 50px; font-size: 1.5rem; font-weight: bold;">3</div>
                     </div>
                     <div>
                         <h3>AI Does Its Magic</h3>
                         <p class="text-muted">That encryption info goes to our cloud servers where artificial intelligence analyzes patterns, tries intelligent combinations, and uses advanced techniques to crack the code.</p>
                     </div>
                 </div>
+
                 <div class="d-flex">
-                    <div class="me-4">
-                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; font-size: 1.5rem; font-weight: bold;">4</div>
+                    <div class="me-4 flex-shrink-0">
+                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                             style="width: 50px; height: 50px; font-size: 1.5rem; font-weight: bold;">4</div>
                     </div>
                     <div>
                         <h3>Get Your File Back</h3>
-                        <p class="text-muted">Download your unlocked Excel file with all your data intact. Usually takes 5-15 minutes, sometimes less.</p>
+                        <p class="text-muted">Download your unlocked Excel file with all your data intact. Usually takes 5–15 minutes, sometimes less.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Testimonials -->
     <section id="testimonials" class="container">
@@ -609,7 +626,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center mb-4 mb-lg-0">
-                    <img src="niraiya_2_0/what-makes-us-different.png" alt="What Makes Us Different (The Honest Truth)" class="img-fluid rounded-3" title="Illustration: What makes Niraiya different" loading="lazy">
+                    <img src="niraiya_2_0/what-makes-us-different.webp" alt="What Makes Us Different (The Honest Truth)" class="img-fluid rounded-3" title="Illustration: What makes Niraiya different" loading="lazy">
                 </div>
             </div>
         </div>
@@ -780,7 +797,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="/niraiya_2_0/browserbased-privacy-protection.png" alt="Browser-based privacy protection" class="img-fluid rounded-3 mb-4 mb-lg-0" title="Browser-based privacy protection illustration" loading="lazy">
+                    <img src="/niraiya_2_0/browserbased-privacy-protection.webp" alt="Browser-based privacy protection" class="img-fluid rounded-3 mb-4 mb-lg-0" title="Browser-based privacy protection illustration" loading="lazy">
                 </div>
             </div>
         </div>
@@ -998,7 +1015,7 @@
 
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
 
     <!-- File Upload Animation Script -->
     <script>
